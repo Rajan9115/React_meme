@@ -1,12 +1,63 @@
-# React + Vite
+# 🎉 Random GIF Generator (React + Giphy API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React-based GIF generator** that fetches **random GIFs** or GIFs based on specific tags using the [Giphy API](https://developers.giphy.com/).  
+It’s a fun and interactive way to explore memes, cars, or any category of your choice! 🚀  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshot
+![App Screenshot](./assets/screenshot.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- 🎲 Generate random GIFs instantly  
+- 🏷️ Generate GIFs by tags (e.g., "car", "meme")  
+- ⚡ Built with **React + Vite** for fast development  
+- 🎨 Styled with **Tailwind CSS**  
+- 🔑 Uses **Giphy API** for fetching GIFs  
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend**: React, Vite  
+- **Styling**: Tailwind CSS  
+- **API**: Giphy API  
+
+---
+
+## 📂 Project Structure
+.
+├── src
+│ ├── components
+│ │ ├── Loader.jsx
+│ │ ├── RandomMeme.jsx
+│ │ ├── TagMeme.jsx
+│ |---hooks
+| | |---useGif.jsx
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── public
+│ └── vite.svg
+├── .env # Store your Giphy API key here
+├── package.json
+└── README.md
+
+
+
+---
+
+## ⚙️ Installation & Setup
+
+ **Clone the repository**
+   ```bash
+   git clone https://github.com/Rajan9115/React_meme.git
+   cd react-meme
+   npm install
+**Create .env file**
+   VITE_API_KEY=your_giphy_api_key_here
+   npm run dev
+
+<img width="1833" height="907" alt="Screenshot 2025-09-02 104919" src="https://github.com/user-attachments/assets/229df3e6-80e3-4cd0-9ca9-cd67e7a733ba" />
+
